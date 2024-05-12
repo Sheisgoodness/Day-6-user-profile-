@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <!------- Font Awesome CDN for social media icons ------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body class="theme-dark">
+    <!------- Toggle button for theme change ------->
+    <button class="theme-toggle" aria-label="Toggle Theme">🌜</button>
+
+    <!------- Profile card containing user information and social links ------->
+    <div class="profile-card">
+        <img src="Profile-img.avif" alt="User Image" class="profile-image">
+        <div class="profile-info">
+            <h1>Alicia Green</h1>
+            <p>Web Developer</p>
+            <p>Location: New York, NY</p>
+            <!------- Social media links ------->
+            <div class="social-links">
+                <a href="https://www.example.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.example.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.example.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.example.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            <span class="left"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
